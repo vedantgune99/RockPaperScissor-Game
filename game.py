@@ -75,6 +75,7 @@ def onClickScissor():
 root = Tk()
 root.geometry("350x500")
 root.minsize(320, 450)
+root.iconbitmap("icon.ico")
 root.title("Rock Paper Scissors Game")
 
 # Buttons to select Rock, Paper, Scissors.
